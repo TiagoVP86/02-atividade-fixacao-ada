@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Formulário de Pedido de Restaurante</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <ul>
+        <li><a href="http://127.0.0.1:5500/index.html">Cardápio</a></li>
+      </ul>
+    </nav>
+
+    <h2>Faça seu Pedido</h2>
+
+    <form action="/processar_pedido" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required />
+
+      <label for="endereco">Endereço de Entrega:</label>
+      <textarea id="endereco" name="endereco" rows="4" required></textarea>
+
+      <label for="entradas">Entradas:</label>
+      <select id="entradas" name="entradas" required>
+        <option value="" disabled selected>Selecione</option>
+        <option value="bruschetta">Bruschetta</option>
+        <option value="carpaccio-de-salmao">Carpaccio de Salmao</option>
+        <option value="nao-obrigado">Não, obrigado.</option>
+      </select>
+
+      <label for="prato">Prato Principal:</label>
+      <select id="prato" name="prato" required>
+        <option value="" disabled selected>Selecione</option>
+        <option value="filet-mignon">Filet Mignon</option>
+        <option value="penne-a-carbonara">Penne à Carbonara</option>
+        <option value="nao-obrigado">Não, obrigado.</option>
+      </select>
+
+      <label for="sobremesas">Sobremesas:</label>
+      <select id="sobremesas" name="sobremesas" required>
+        <option value="" disabled selected>Selecione</option>
+        <option value="tiramisu">Tiramisù</option>
+        <option value="pudim-de-leite">Pudim de Leite</option>
+        <option value="nao-obrigado">Não, obrigado.</option>
+      </select>
+
+      <label for="observacoes">Observações:</label>
+      <textarea id="observacoes" name="observacoes" rows="4"></textarea>
+
+      <div class="button">
+        <button type="submit">Enviar Pedido</button>
+      </div>
+    </form>
+  </body>
+</html>

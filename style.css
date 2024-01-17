@@ -1,0 +1,132 @@
+/* ESTILIZACAO CARDAPIO */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+li {
+  padding: 0 8px;
+}
+
+a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #352626;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #deb887;
+  padding-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  color: #c2883c;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px 50px;
+  background-color: #442a2a;
+  color: #c2883c;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+th,
+td {
+  text-align: center;
+  font-size: 20px;
+}
+
+th {
+  background-color: #352626;
+  color: #fff;
+  color: #deb887;
+  font-size: 25px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+img {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* ESTILIZACAO PEDIDO */
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  background-color: #442a2a;
+  border: 1px solid;
+  color: #deb887;
+  border-radius: 5px;
+  resize: none;
+}
+
+button {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #701010;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 250px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #b92525;
+}
+
+.button {
+  text-align: center;
+}
+
+option {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  margin: 20px;
+}
