@@ -105,7 +105,7 @@ textarea {
 
 button {
   font-family: "Courier New", Courier, monospace;
-  background-color: #701010;
+  background-color: #352626;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -117,7 +117,7 @@ button {
 }
 
 button:hover {
-  background-color: #b92525;
+  background-color: #411515;
 }
 
 .button {
